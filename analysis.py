@@ -50,7 +50,7 @@ class Demo:
         text = Entry(frame_e, textvariable=self.t_count, bg="white",justify=CENTER)
         text.pack()
         text.focus_force()
-        la=Label(frame_e, text="Value of no. tweets should be less than 3200")
+        la=Label(frame_e, text="Value of no. tweets should be less than 3200 and Username should be valid")
         la.pack()
         frame_e.pack()
         nameButton = Button(frame_e, text="Accept", command=self.Naming)
